@@ -5,7 +5,7 @@ public enum Currency {
     GBP(1.27),
     SEK(0.1),
     EUR(1.07),
-    YPN(0.0079);
+    JPY(0.0079);
 
     public final double usdConversion;
 

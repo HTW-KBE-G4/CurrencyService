@@ -14,14 +14,14 @@ public class CalculatorTest {
 
     @Test
     void conversionTestCase2() throws CurrencyNotSupportedException {
-        double converted = Calculator.convertCurrency("GBP", 3, "YPN");
+        double converted = Calculator.convertCurrency("GBP", 3, "JPY");
         assertEquals(482.28, converted);
     }
 
     @Test
     void invalidInputCurrency() {
         try {
-            double converted = Calculator.convertCurrency("QQQ", 3, "YPN");
+            double converted = Calculator.convertCurrency("QQQ", 3, "JPY");
             fail();
         } catch(CurrencyNotSupportedException ignored) {
             //Exception was thrown as expected
