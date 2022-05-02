@@ -11,9 +11,7 @@ Server Port: 8080
 POST /convert
 
 Request Body Fields:
-String inputCurrency
-double value
-String expectedCurrency
+String inputCurrency + double value + String expectedCurrency
 
 The inputCurrency and expectedCurrency fields take ISO codes for the currency in question.
 Currently supported: USD, GBP, SEK, EUR, JPY
