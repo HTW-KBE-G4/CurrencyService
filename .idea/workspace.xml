@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="164691b1-db36-4cfb-80e0-0b1e5a21244b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/tanuki_hardware_store/currency_service/Request.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/tanuki_hardware_store/currency_service/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency_service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/currency_service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ponent/currency_service/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tanuki_hardware_store/currency_service/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ponent/currency_service/Currency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tanuki_hardware_store/currency_service/Currency.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ponent/currency_service/CurrencyNotSupportedException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tanuki_hardware_store/currency_service/CurrencyNotSupportedException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ponent/currency_service/CurrencyServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tanuki_hardware_store/currency_service/CurrencyServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ponent/currency_service/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/de/tanuki_hardware_store/currency_service/CalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ponent/currency_service/CurrencyServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/de/tanuki_hardware_store/currency_service/CurrencyServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ponent/currency_service/Calculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ponent/currency_service/CurrencyNotSupportedException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ponent/currency_service/CurrencyServiceApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ponent/currency_service/CalculatorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ponent/currency_service/CurrencyServiceApplicationTests.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\lucas\OneDrive\Dokumente\GitHub\CurrencyService\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="28L0n3MlI3vFF5at9DiC1SDxUF0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Desktop/Studiumzeugs/Sem5" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+  </component>
+  <component name="RunManager" selected="JUnit.CurrencyServiceApplicationTests">
+    <configuration name="CurrencyServiceApplication (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.tanuki_hardware_store.currency_service.CurrencyServiceApplication" />
+      <module name="currency_service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.tanuki_hardware_store.currency_service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="currency_service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.tanuki_hardware_store.currency_service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.tanuki_hardware_store.currency_service" />
+      <option name="MAIN_CLASS_NAME" value="de.tanuki_hardware_store.currency_service.CalculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CurrencyServiceApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="currency_service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.tanuki_hardware_store.currency_service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.tanuki_hardware_store.currency_service" />
+      <option name="MAIN_CLASS_NAME" value="de.tanuki_hardware_store.currency_service.CurrencyServiceApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CurrencyServiceApplicationTests.greetingShouldReturnDefaultMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="currency_service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.tanuki_hardware_store.currency_service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.tanuki_hardware_store.currency_service" />
+      <option name="MAIN_CLASS_NAME" value="de.tanuki_hardware_store.currency_service.CurrencyServiceApplicationTests" />
+      <option name="METHOD_NAME" value="greetingShouldReturnDefaultMessage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CurrencyServiceApplicationTests.unsupportedCurrencyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="currency_service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.tanuki_hardware_store.currency_service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.tanuki_hardware_store.currency_service" />
+      <option name="MAIN_CLASS_NAME" value="de.tanuki_hardware_store.currency_service.CurrencyServiceApplicationTests" />
+      <option name="METHOD_NAME" value="unsupportedCurrencyTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CurrencyServiceApplicationTests" />
+        <item itemvalue="JUnit.CurrencyServiceApplicationTests.unsupportedCurrencyTest" />
+        <item itemvalue="JUnit.CurrencyServiceApplicationTests.greetingShouldReturnDefaultMessage" />
+        <item itemvalue="Application.CurrencyServiceApplication (1)" />
+        <item itemvalue="JUnit.CalculatorTest (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$USER_HOME$/Downloads/Beleg2 Abgabe/Beleg2_Aufgabe" value="PREVIEW" />
+        <entry key="$USER_HOME$/Downloads/Beleg2_Aufgabe/Beleg2_Aufgabe" value="PREVIEW" />
+        <entry key="$USER_HOME$/Downloads/Beleg_1 Abgabe (1)/Beleg_1 Abgabe" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../Desktop/Studiumzeugs/Beleg2Aufgabe" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../Desktop/Studiumzeugs/Sem5/A" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../Desktop/Studiumzeugs/Sem5/Content Management/AufgabeSimpleMapReduce" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../Desktop/Studiumzeugs/Sem5/Content Management/Aufgabe_RelAlgebra" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../Desktop/Studiumzeugs/Sem5/Content Management/TryMonad/TryMonad" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../Desktop/Studiumzeugs/Sem5/Content Management/UebungMatrixAufgabe" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../Desktop/Studiumzeugs/Sem5/Entwicklung Sozialer Anwendungen/Beleg2Aufgabe" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../Desktop/Studiumzeugs/Sem5/Entwicklung Sozialer Anwendungen/Beleg3KlassifikationAufgabe" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../Desktop/Studiumzeugs/Sem5/Entwicklung Sozialer Anwendungen/ExerciseListsAufgabe" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../Desktop/Studiumzeugs/Sem5/Entwicklung Sozialer Anwendungen/TwitterBsp11" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../Desktop/Studiumzeugs/Sem5/Entwicklung Sozialer Anwendungen/Uebung1_sbt" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="164691b1-db36-4cfb-80e0-0b1e5a21244b" name="Default Changelist" comment="" />
+      <created>1650980721780</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1650980721780</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1651493872870">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1651493872870" />
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1651493161245">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1651493161245" />
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom" timestamp="1651493914552">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1651493914552" />
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1651492403280" />
+    <state width="1877" height="274" key="GridCell.Tab.0.center" timestamp="1651493914552">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="274" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1651493914552" />
+    <state width="1877" height="274" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1651492403280" />
+    <state width="1877" height="274" key="GridCell.Tab.0.left" timestamp="1651493914552">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="274" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1651493914552" />
+    <state width="1877" height="274" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1651492403280" />
+    <state width="1877" height="274" key="GridCell.Tab.0.right" timestamp="1651493914552">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="274" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1651493914552" />
+    <state width="1877" height="274" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1651492403280" />
+    <state width="1877" height="338" key="GridCell.Tab.1.bottom" timestamp="1651489280757">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="338" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1651489280757" />
+    <state width="1877" height="338" key="GridCell.Tab.1.center" timestamp="1651489280756">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="338" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1651489280756" />
+    <state width="1877" height="338" key="GridCell.Tab.1.left" timestamp="1651489280756">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="338" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1651489280756" />
+    <state width="1877" height="338" key="GridCell.Tab.1.right" timestamp="1651489280756">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="338" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1651489280756" />
+    <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1650981846259">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="490" y="175" key="Maven.ArtifactSearchDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1650981846259" />
+    <state x="440" y="94" key="SettingsEditor" timestamp="1651488817463">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1651488817463" />
+    <state x="2576" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1651485276758">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2576" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1651485276758" />
+  </component>
+</project>
