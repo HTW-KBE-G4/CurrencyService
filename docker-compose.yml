@@ -1,0 +1,10 @@
+version: '3.3'
+
+services:
+  currencyservice:
+    container_name: currency_service
+    build: .
+    image: currency_service
+
+    ports:
+      - "4003:4003"
