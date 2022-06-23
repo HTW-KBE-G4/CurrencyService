@@ -14,12 +14,12 @@ public class RabbitMQConfig {
 
     @Bean
     public Queue queue() {
-        return new Queue("tanuki.currency.requests");
+        return new Queue("currenc");
     }
 
     @Bean
     public DirectExchange exchange() {
-        return new DirectExchange("tanuki.currency");
+        return new DirectExchange("currency");
     }
 
     @Bean

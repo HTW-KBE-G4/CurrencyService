@@ -7,8 +7,7 @@ import org.springframework.messaging.handler.annotation.SendTo;
 
 public class CurrencyServer {
 
-    @RabbitListener(queues = "tanuki.currency.requests")
-    @SendTo("tanuki.currency.replies")
+    @RabbitListener(queues = "currency")
     public Result receive(Request req) throws CurrencyNotSupportedException {
         double res = Calculator.convertCurrency(req.getInputCurrency(),req.getValue(),req.getExpectedCurrency());
         return new Result(res,req.getExpectedCurrency());
