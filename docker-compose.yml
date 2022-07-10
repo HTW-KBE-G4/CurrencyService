@@ -5,6 +5,15 @@ services:
     container_name: currency_service
     build: .
     image: currency_service
-
     ports:
       - "4003:4003"
+    networks:
+      - default
+      - messagebrokerservice_default
+
+
+networks:
+  default:
+    internal: true
+  messagebrokerservice_default:
+    external: true
