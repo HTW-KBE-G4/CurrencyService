@@ -1,14 +1,18 @@
 package de.tanuki_hardware_store.currency_service;
 
-public class Result {
+import java.io.Serializable;
 
-    private final double price;
-    private final String currency;
+public class Result implements Serializable {
+
+    private double price;
+    private String currency;
 
     public Result(double price, String currency) {
         this.price = price;
         this.currency = currency;
     }
+
+    public Result() {}
 
     public double getPrice() {
         return price;
@@ -18,4 +22,11 @@ public class Result {
         return currency;
     }
 
+    public void setCurrency(String currency) {
+        this.currency = currency;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
 }
