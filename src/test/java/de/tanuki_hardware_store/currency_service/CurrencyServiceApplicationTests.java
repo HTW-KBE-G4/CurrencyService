@@ -26,12 +26,12 @@ class CurrencyServiceApplicationTests {
 	public void currencyConversionTestCase1() throws Exception {
 		final String baseUrl = "http://localhost:"+port+"/convert";
 		URI uri = new URI(baseUrl);
-		Request request = new Request("EUR","USD",5);
+		CurrencyServiceRequest request = new CurrencyServiceRequest("EUR","USD",5);
 
 		HttpHeaders headers = new HttpHeaders();
 		headers.set("X-COM-PERSIST", "true");
 
-		HttpEntity<Request> httpRequest = new HttpEntity<>(request, headers);
+		HttpEntity<CurrencyServiceRequest> httpRequest = new HttpEntity<>(request, headers);
 
 		ResponseEntity<String> result = this.restTemplate.postForEntity(uri, httpRequest, String.class);
 
@@ -45,12 +45,12 @@ class CurrencyServiceApplicationTests {
 	public void currencyConversionTestCase2() throws Exception {
 		final String baseUrl = "http://localhost:"+port+"/convert";
 		URI uri = new URI(baseUrl);
-		Request request = new Request("GBP","JPY",3);
+		CurrencyServiceRequest request = new CurrencyServiceRequest("GBP","JPY",3);
 
 		HttpHeaders headers = new HttpHeaders();
 		headers.set("X-COM-PERSIST", "true");
 
-		HttpEntity<Request> httpRequest = new HttpEntity<>(request, headers);
+		HttpEntity<CurrencyServiceRequest> httpRequest = new HttpEntity<>(request, headers);
 
 		ResponseEntity<String> result = this.restTemplate.postForEntity(uri, httpRequest, String.class);
 
@@ -64,12 +64,12 @@ class CurrencyServiceApplicationTests {
 	public void unsupportedCurrencyTest() throws Exception {
 		final String baseUrl = "http://localhost:"+port+"/convert";
 		URI uri = new URI(baseUrl);
-		Request request = new Request("QQQ","JPY",3);
+		CurrencyServiceRequest request = new CurrencyServiceRequest("QQQ","JPY",3);
 
 		HttpHeaders headers = new HttpHeaders();
 		headers.set("X-COM-PERSIST", "true");
 
-		HttpEntity<Request> httpRequest = new HttpEntity<>(request, headers);
+		HttpEntity<CurrencyServiceRequest> httpRequest = new HttpEntity<>(request, headers);
 
 		ResponseEntity<String> result = this.restTemplate.postForEntity(uri, httpRequest, String.class);
 
