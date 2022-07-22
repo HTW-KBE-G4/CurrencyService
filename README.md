@@ -15,3 +15,5 @@ String inputCurrency + double value + String expectedCurrency
 
 The inputCurrency and expectedCurrency fields take ISO codes for the currency in question.
 Currently supported: USD, GBP, SEK, EUR, JPY
+
+Now includes Github Workflows!
